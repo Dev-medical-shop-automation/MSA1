@@ -1,0 +1,14 @@
+## YAML Template.
+---
+management:
+  endpoints:
+    web:
+      exposure:
+        include: httptrace
+  endpoint:
+    httptrace:
+      enabled: true
+  trace:
+    http:
+      enabled: true
+

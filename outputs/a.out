@@ -1,0 +1,114 @@
+cd /home/premnath/projects/MSA1; JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 /home/premnath/projects/MSA1/mvnw -Dexec.vmArgs= "-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}" -Dexec.executable=/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Dexec.mainClass=com.G5.MSA1.Msa1Application -Dexec.classpathScope=runtime -Dexec.appArgs= --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< com.G5:MSA1 >-----------------------------
+[INFO] Building MSA1 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ MSA1 ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ MSA1 ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 5 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- exec:3.1.0:exec (default-cli) @ MSA1 ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.8)
+
+2024-08-06T20:56:11.357+05:30  INFO 167489 --- [MSA1] [  restartedMain] com.G5.MSA1.Msa1Application              : Starting Msa1Application using Java 17.0.11 with PID 167489 (/home/premnath/projects/MSA1/target/classes started by premnath in /home/premnath/projects/MSA1)
+2024-08-06T20:56:11.365+05:30  INFO 167489 --- [MSA1] [  restartedMain] com.G5.MSA1.Msa1Application              : No active profile set, falling back to 1 default profile: "default"
+2024-08-06T20:56:11.529+05:30  INFO 167489 --- [MSA1] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-06T20:56:11.530+05:30  INFO 167489 --- [MSA1] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-06T20:56:14.246+05:30  INFO 167489 --- [MSA1] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06T20:56:14.389+05:30  INFO 167489 --- [MSA1] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
+2024-08-06T20:56:16.188+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-08-06T20:56:16.213+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-06T20:56:16.215+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-06T20:56:16.313+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-06T20:56:16.318+05:30  INFO 167489 --- [MSA1] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4782 ms
+2024-08-06T20:56:17.102+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06T20:56:17.181+05:30  INFO 167489 --- [MSA1] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-08-06T20:56:17.255+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-06T20:56:17.608+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06T20:56:17.650+05:30  INFO 167489 --- [MSA1] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-06T20:56:18.232+05:30  INFO 167489 --- [MSA1] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51288a67
+2024-08-06T20:56:18.235+05:30  INFO 167489 --- [MSA1] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-06T20:56:18.341+05:30  WARN 167489 --- [MSA1] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06T20:56:18.342+05:30  WARN 167489 --- [MSA1] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-06T20:56:19.855+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06T20:56:20.084+05:30  INFO 167489 --- [MSA1] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06T20:56:20.708+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-06T20:56:21.747+05:30  WARN 167489 --- [MSA1] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-06T20:56:23.644+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-06T20:56:23.674+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-08-06T20:56:23.927+05:30  INFO 167489 --- [MSA1] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-08-06T20:56:23.964+05:30  INFO 167489 --- [MSA1] [  restartedMain] com.G5.MSA1.Msa1Application              : Started Msa1Application in 13.513 seconds (process running for 14.279)
+2024-08-06T20:56:30.991+05:30  INFO 167489 --- [MSA1] [nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06T20:56:30.993+05:30  INFO 167489 --- [MSA1] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-06T20:56:31.000+05:30  INFO 167489 --- [MSA1] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+The RequestBody id:0 name:Taliban type:tablet cost:15.99 qty:718 mfg:2024-01-15 exp:2026-01-15
+Hibernate: 
+    select
+        count(*) 
+    from
+        medicine m1_0 
+    where
+        m1_0.medicine_id=?
+id: 1 existsById output:true
+Hibernate: 
+    select
+        count(*) 
+    from
+        medicine m1_0 
+    where
+        m1_0.medicine_id=?
+updateMedicine @Service if condition
+Hibernate: 
+    select
+        m1_0.medicine_id,
+        m1_0.cost,
+        m1_0.exp_date,
+        m1_0.generic_name,
+        m1_0.mfg_date,
+        m1_0.name,
+        m1_0.qty,
+        m1_0.type 
+    from
+        medicine m1_0 
+    where
+        m1_0.medicine_id=?
+Hibernate: 
+    update
+        medicine 
+    set
+        name=?,
+        generic_name=?,
+        mfg_date=?,
+        exp_date=?,
+        type=?,
+        cost=?,
+        qty=? 
+    where
+        medicine_id=?
+Hibernate: 
+    select
+        m1_0.medicine_id,
+        m1_0.cost,
+        m1_0.exp_date,
+        m1_0.generic_name,
+        m1_0.mfg_date,
+        m1_0.name,
+        m1_0.qty,
+        m1_0.type 
+    from
+        medicine m1_0
+home:Get all medicines:<200 OK OK,[com.G5.MSA1.model.Medicine@23743dbc, com.G5.MSA1.model.Medicine@5e0618b3, com.G5.MSA1.model.Medicine@331acf99, com.G5.MSA1.model.Medicine@1c9e5645, com.G5.MSA1.model.Medicine@2e1b1454, com.G5.MSA1.model.Medicine@40b652a4],[]>

@@ -1,0 +1,14 @@
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Doctor.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Manager.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/Msa1Application.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Prescription.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Supplier.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/SalesRecord.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/service/medicineService.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Views.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Medicine.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Customer.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Pharmacist.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/model/Users.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/repository/medicineRepository.java
+/home/premnath/projects/MSA1/src/main/java/com/G5/MSA1/controller/medicineController.java
